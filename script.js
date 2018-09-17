@@ -15,7 +15,7 @@ function createListElement() {
     input.value = "";
     
     var delBtn = document.createElement("button");
-    var buttonText = document.createTextNode("X");
+    var buttonText = document.createTextNode("DEL");
     delBtn.appendChild(buttonText);
     delBtn.id = "delBtn";
     // delBtn.classList.add("btn\xa0btn-outline-danger");

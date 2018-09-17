@@ -4,21 +4,24 @@
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Poor Story', cursive;
   font-size: 16px;
-  background-color: #f4f4f4;
+  background-position: center;
+  background-image: url("background.jpg");
+  height: 100%;
+  background-repeat: no-repeat;
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 36px;
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 20px;
 }
 
 #first {
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 #userinput {
@@ -36,31 +39,11 @@ h2 {
 } */
 
 .container {
-  width: 500px;
-  background-color: #fff;
-  border: 5px solid #e4e4e4;
-  margin-top: 10px;
-
-}
-
-.coolTitle {
-  text-align: center;
-  font-family: 'Oswald', Helvetica, sans-serif;
-  font-size: 40px;
-  transform: skewY(-10deg);
-  letter-spacing: 4px;
-  word-spacing: -8px;
-  color: tomato;
-  text-shadow: 
-    -1px -1px 0 firebrick,
-    -2px -2px 0 firebrick,
-    -3px -3px 0 firebrick,
-    -4px -4px 0 firebrick,
-    -5px -5px 0 firebrick,
-    -6px -6px 0 firebrick,
-    -7px -7px 0 firebrick,
-    -8px -8px 0 firebrick,
-    -30px 20px 40px dimgrey;
+  width: 100%;
+  flex-wrap: nowrap;
+  background-color: rgba(255, 250, 246, 0.708);
+  padding: 20px;
+  margin: auto;
 }
 
 .done {
@@ -76,17 +59,28 @@ ul {
 }
 
 ul li {
-  margin: 10px;
+  margin: 10px 40px 10px 0px;
   background-color: #f4f4f4;
-  padding: 10px;
+  padding: 10px 10px 20px 10px;
   font-size: 20px;
 }
 
+ul li:hover {
+  outline: 1px solid #ceb8a4;
+}
+
+
 li button {
   margin-left: 10px;
-  background-color: #ce0000;
-  border-radius: 20px;
+  background-color: #54483D;
+  border-radius: 5px;
   color: white;
-  padding: 3px 12px 3px 12px;
+  padding: 3px 8px 3px 8px;
   font-size: 20px;
+  position: absolute;
+  right: 0px;
+}
+
+li button:hover {
+  background-color: #ce0e00;
 }
