@@ -85,3 +85,8 @@ li button {
 li button:hover {
   background-color: #ce0e00;
 }
+
+footer {
+  color: #7e7e7e;
+  margin-top: 10px;
+}
