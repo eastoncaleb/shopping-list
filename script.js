@@ -18,6 +18,7 @@ function createListElement() {
     var buttonText = document.createTextNode("X");
     delBtn.appendChild(buttonText);
     delBtn.id = "delBtn";
+    // delBtn.classList.add("btn\xa0btn-outline-danger");
     li.appendChild(delBtn);
     delBtn.addEventListener("click", deleteLi);
 
