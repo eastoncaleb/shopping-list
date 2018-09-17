@@ -27,6 +27,7 @@ h2 {
 #userinput {
   font-size: 18px;
   padding: 7px;
+  max-width: 200px;
 }
 
 #enter {
